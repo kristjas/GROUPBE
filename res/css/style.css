@@ -3,38 +3,80 @@ html, body {
 }
 
 .container{
-    background-color: aquamarine;
-    height:100%;
+
+    height:90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.container1{
-    display: flex;
-}
+
 .header{
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 50px ;
+    background-color: gray;
+    
+    border-radius: 5%;
+    padding: 1%;
     
 }
 .box{
     
     height: 100%;
-    border-radius:10%;
+    
 }
 #box1{
     height: 100%;
     width: 25%;
-    background-color: blue;
+    
 }
 #box2{
     height: 100%;
     width: 50%;
-    background-color: rgb(160, 28, 28);
+    
 }
 #box3{
     height: 100%;
     width: 25%;
-    background-color: rgb(23, 145, 41);
+    
 }
+
+.inbox{
+    align-items: center;
+    height: 50%;
+    margin: 25%;
+    background-color: rgb(217, 217, 217);
+    border-radius:5%;
+}
+.paigutus{
+    align-items: center;
+    padding: 10%;
+}
+
+#tekstivali{
+    height: 100px;
+    text-align: left;
+    
+}
+
+#createPost{
+    align-items: center;
+    text-align: center;
+    color:aliceblue;
+    background-color: rgb(31, 31, 95);
+    border-color: rgb(31, 31, 95);
+}
+
+footer{
+    display: none;
+}
+
+.logo{
+    align-self: flex-end;
+}
+
+
 
 
