@@ -1,19 +1,6 @@
-#box1 {
-    height: 100%;
-    width: 25%;
-    background-color: blue;
-}
-
-#box2 {
-    height: 100%;
+.content-box {
     width: 50%;
-    background-color: rgb(160, 28, 28);
-}
-
-#box3 {
-    height: 100%;
-    width: 25%;
-    background-color: rgb(23, 145, 41);
+    margin-bottom: 1em;
 }
 
 footer {
