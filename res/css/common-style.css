@@ -1,9 +1,15 @@
-html,
-body {
-    height: 100%;
+html {
+    background-color: #f0f0f0;
 }
 
-.top-header {
+body {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+header {
     background-color: #ccc;
     padding: 10px;
     text-align: left;
@@ -41,7 +47,8 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    margin-top: 60px;
+    flex: 1;
 }
 
 .content-box {
