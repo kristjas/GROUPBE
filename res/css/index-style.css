@@ -8,6 +8,15 @@
     justify-content: space-between;
 }
 
+img~p {
+    text-align: start;
+}
+
+img+p {
+    padding-bottom: 1em;
+    font-style: italic;
+}
+
 footer {
     background-color: #868da0;
     position: relative;
