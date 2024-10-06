@@ -1,23 +1,11 @@
-#box1 {
-    height: 100%;
-    width: 25%;
-    background-color: blue;
-}
-
-#box2 {
-    height: 100%;
+.content-box {
     width: 50%;
-    background-color: rgb(160, 28, 28);
-}
-
-#box3 {
-    height: 100%;
-    width: 25%;
-    background-color: rgb(23, 145, 41);
+    margin-bottom: 1em;
 }
 
 footer {
-    margin-top: 0.2em;
     background-color: #868da0;
     position: absolute;
+    width: 100%;
+    padding: 0.7em;
 }
