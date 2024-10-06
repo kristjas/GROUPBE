@@ -3,6 +3,11 @@
     margin-bottom: 1em;
 }
 
+.content-box div {
+    display: flex;
+    justify-content: space-between;
+}
+
 footer {
     background-color: #868da0;
     position: relative;
