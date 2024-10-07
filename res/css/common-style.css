@@ -11,12 +11,12 @@ body {
 
 header {
     background-color: #ccc;
-    padding: 10px;
-    text-align: left;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -28,11 +28,11 @@ header {
     margin-right: 15px;
 }
 
-.profile-icon {
+/* .profile-icon {
     position: absolute;
     right: 10px;
     top: 10px;
-}
+} */
 
 .content-container {
     display: flex;
