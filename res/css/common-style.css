@@ -21,6 +21,16 @@ header {
     box-sizing: border-box;
 }
 
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-links a,
+.header-links p {
+    margin: 0 10px;
+}
+
 
 .home-button {
     font-family: Arial, Helvetica, sans-serif;
