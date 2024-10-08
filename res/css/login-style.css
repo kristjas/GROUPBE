@@ -1,38 +1,3 @@
-.container1 {
-    display: flex;
-}
-
-.header {
-    text-align: left;
-
-}
-
-.box {
-
-    height: 100%;
-    border-radius: 10%;
-}
-
-#box1 {
-    height: 100%;
-    width: 25%;
-    background-color: blue;
-}
-
-#box2 {
-    height: 100%;
-    width: 50%;
-    background-color: rgb(160, 28, 28);
-}
-
-#box3 {
-    height: 100%;
-    width: 25%;
-    background-color: rgb(23, 145, 41);
-}
-
-
-
 h2 {
     font-family: fantasy;
     margin-bottom: 20px;

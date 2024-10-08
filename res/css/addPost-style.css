@@ -1,28 +1,7 @@
-html, body {
-    height: 100%;
-}
-
-.container{
-
-    height:90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-
-
-
-
-
-
-
-
-#textf{
+#textf {
     height: 100px;
     text-align: left;
-    
+
 }
 
 
@@ -37,18 +16,14 @@ html, body {
     cursor: pointer;
 }
 
-footer{
+footer {
     display: none;
 }
 
-.logo{
+.logo {
     align-self: flex-end;
 }
 
-div ~ label {
+div~label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-
-
-
-
+}
