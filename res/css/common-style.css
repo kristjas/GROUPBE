@@ -72,3 +72,18 @@ header {
     margin: 10px 0;
     font-family: Arial, sans-serif;
 }
+
+@media screen and (max-width: 300px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .home-button {
+        padding-bottom: 10px;
+    }
+
+    .content-container {
+        margin-top: 100px;
+    }
+}

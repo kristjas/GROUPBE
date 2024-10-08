@@ -23,3 +23,14 @@ footer {
     padding: 0.7em;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 300px) {
+    .content-box div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .home-button {
+        padding-bottom: 10px;
+    }
+}
