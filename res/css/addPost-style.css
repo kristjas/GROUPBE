@@ -54,6 +54,7 @@ html, body {
 
 .inbox{
     align-items: center;
+    width: 100%;
     height: 50%;
     margin: 25%;
     background-color: rgb(217, 217, 217);
