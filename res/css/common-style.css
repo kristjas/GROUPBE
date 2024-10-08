@@ -1,16 +1,38 @@
-html,
-body {
-    height: 100%;
+html {
+    background-color: #f0f0f0;
 }
 
-.top-header {
+body {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+header {
     background-color: #ccc;
-    padding: 10px;
-    text-align: left;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-links a,
+.header-links p {
+    margin: 0 10px;
+}
+
+.header-links a:hover {
+    color: rgb(113, 137, 173);
 }
 
 
@@ -22,18 +44,14 @@ body {
     margin-right: 15px;
 }
 
-.profile-icon {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-}
-
 .content-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    margin-top: 60px;
+    flex: 1;
 }
 
 .content-box {
@@ -42,7 +60,7 @@ body {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    width: 50%;
+    max-width: 50%;
 }
 
 .content-box a {
