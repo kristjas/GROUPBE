@@ -19,7 +19,7 @@ img+p {
 
 footer {
     background-color: #868da0;
-    position: relative;
     width: 100%;
     padding: 0.7em;
+    box-sizing: border-box;
 }
