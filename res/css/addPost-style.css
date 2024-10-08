@@ -45,6 +45,10 @@ footer{
     align-self: flex-end;
 }
 
+div ~ label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
 
 
 
