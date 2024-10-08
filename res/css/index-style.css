@@ -3,7 +3,7 @@
     margin-bottom: 1em;
 }
 
-.content-box div {
+.content-box>div {
     display: flex;
     justify-content: space-between;
 }
