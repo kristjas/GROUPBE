@@ -2,12 +2,12 @@ window.onload = function() {
 
 
 
-    fetch('https://api.jsonbin.io/v3/qs/672516b5ad19ca34f8c248ae')
+    fetch('https://api.npoint.io/b42e30b4f83c6842308a?fbclid=IwY2xjawGSMHVleHRuA2FlbQIxMAABHRWFCcVB9jkWyqart5QP-moNU8Dg-Zdraco_zDv5lLcaW1AF1ma14jfdZQ_aem_B3HqGcwEJyzboQXKWQlVTQ')
         .then((response) => response.json())
         .then(json => {
             console.log(json);
 
-            let posts = json.record.posts;
+            let posts = json.posts;
             let divpage = document.getElementsByClassName("content-container")[0];
 
             
