@@ -7,6 +7,7 @@
     <script type="text/javascript" src="src/js/posts.js"></script>
     <link rel="stylesheet" href="res/css/common-style.css">
     <link rel="stylesheet" href="res/css/home-style.css">
+    <link rel="stylesheet" href="res/css/dropdown.css">
 
     <title>Homepage</title>
 </head>
@@ -18,10 +19,14 @@
             <p>|</p>
             <a href="addPost.html" class="home-button">addPost</a>
         </div>
-        <div>
-            <img src="res/pics/me.png" onclick="location.href = 'login.html';" alt="Profile Icon" width="30"
-                height="30">
-        </div>
+        <div class="profile-container">
+            <script type="text/javascript" src="src\js\dropdown.js"></script>
+            <img src="res/pics/me.png" alt="Profile Icon" width="30" height="30" class="profile-pic" onclick="toggleDropdown()">
+            <div id="dropdown" class="dropdown-content">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <p>Logout</p>
+            </div>
     </header>
     <div class="content-container">
         <!--
