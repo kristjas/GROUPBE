@@ -15,6 +15,9 @@
 img+p {
     padding-bottom: 1em;
     font-style: italic;
+    font-size: small;
+    /* white-space: inherit; */
+    word-break: break-all;
 }
 
 footer {
