@@ -23,6 +23,7 @@
 
 .dropdown-content p:hover {
     background-color: #ddd;
+    cursor: pointer;
 }
 
 .header-links {
