@@ -3,7 +3,6 @@ window.onload = function () {
 
 
     fetch('https://api.npoint.io/b42e30b4f83c6842308a?fbclid=IwY2xjawGSMHVleHRuA2FlbQIxMAABHRWFCcVB9jkWyqart5QP-moNU8Dg-Zdraco_zDv5lLcaW1AF1ma14jfdZQ_aem_B3HqGcwEJyzboQXKWQlVTQ')
-        // fetch('res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
             console.log(json);

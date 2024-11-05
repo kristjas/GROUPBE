@@ -46,8 +46,9 @@
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 380px) {
     .dropdown-content {
+        /* dropdown menu horizontally in the middle */
         position: absolute;
         transform: translateX(-50%);
         left: 50%;
