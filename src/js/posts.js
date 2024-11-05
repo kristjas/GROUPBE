@@ -2,7 +2,7 @@ window.onload = function () {
 
 
 
-    // fetch('https://api.npoint.io/b42e30b4f83c6842308a?fbclid=IwY2xjawGSMHVleHRuA2FlbQIxMAABHRWFCcVB9jkWyqart5QP-moNU8Dg-Zdraco_zDv5lLcaW1AF1ma14jfdZQ_aem_B3HqGcwEJyzboQXKWQlVTQ')
+    // fetch('https://api.npoint.io/a266ad2a6213bf55311a')
     fetch('res/json/posts.json')
         .then((response) => response.json())
         .then(json => {
@@ -27,7 +27,7 @@ window.onload = function () {
 
                 let imgAndAuthorDiv = document.createElement("div");
                 let img = document.createElement("img");
-                img.src = "res/pics/me.png";
+                img.src = post["profile-pic"];
                 img.alt = "Profile Icon";
                 img.width = 30;
                 img.height = 30;
