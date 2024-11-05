@@ -1,5 +1,6 @@
 .dropdown-content {
-    display: none; /*hidden by default*/
+    display: none;
+    /*hidden by default*/
     position: absolute;
     right: 0;
     background-color: #f9f9f9;
@@ -10,7 +11,8 @@
 }
 
 .dropdown-content.show {
-    display: block; /*show dropdown*/
+    display: block;
+    /* show dropdown */
 }
 
 .dropdown-content p {
@@ -34,7 +36,6 @@
 .profile-container {
     position: relative;
     display: inline-block;
-    margin-left: auto;
 }
 
 .profile-pic {
@@ -42,4 +43,13 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .dropdown-content {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+    }
 }
