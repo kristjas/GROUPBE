@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="res/css/common-style.css">
     <link rel="stylesheet" href="res/css/addPost-style.css">
+    <link rel="stylesheet" href="res/css/dropdown.css">
 
     <title>Add a Post</title>
 </head>
@@ -15,9 +16,15 @@
         <div class="header-links">
             <a href="index.html" class="home-button">Home</a>
         </div>
-        <div>
-            <img src="res/pics/me.png" alt="Profile Icon" width="30" height="30">
-        </div>
+        
+        <div class="profile-container">
+            <script type="text/javascript" src="src\js\dropdown.js"></script>
+            <img src="res/pics/me.png" alt="Profile Icon" width="30" height="30" class="profile-pic" onclick="toggleDropdown()">
+            <div id="dropdown" class="dropdown-content">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <p onclick="window.location.href='login.html'">Logout</p>
+            </div>
     </header>
 
 
